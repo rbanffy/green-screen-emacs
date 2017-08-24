@@ -2,7 +2,7 @@
 A nice color theme for those who miss green CRTs.
 
 [![MELPA](https://melpa.org/packages/green-screen-theme-badge.svg)]
-(https://melpa.org/#/green-screen-theme) [![MELPA Stable]
+(https://melpa.org/#/green-screen-theme)] ![[MELPA Stable]
 (https://stable.melpa.org/packages/green-screen-theme-badge.svg)]
 (https://stable.melpa.org/#/green-screen-theme)
 
