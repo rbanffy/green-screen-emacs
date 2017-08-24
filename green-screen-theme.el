@@ -65,7 +65,7 @@
  '(font-lock-constant-face ((t (:foreground "#BFFF7F" :weight bold))))
  '(font-lock-doc-face ((t (:inherit (font-lock-string-face)))))
  '(font-lock-function-name-face ((t (:foreground "#407F00" :weight normal))))
- '(font-lock-keyword-face ((t (:foreground "b0ff00" :weight extra-bold))))
+ '(font-lock-keyword-face ((t (:foreground "#b0ff00" :weight extra-bold))))
  '(font-lock-negation-char-face ((t nil)))
  '(font-lock-regexp-grouping-backslash ((t (:inherit (bold)))))
  '(font-lock-regexp-grouping-construct ((t (:inherit (bold)))))
