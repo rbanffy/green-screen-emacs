@@ -95,6 +95,15 @@
  '(secondary-selection ((t (:background "#407F00"))))
  '(shadow ((t (:foreground "#407F00"))))
  '(trailing-whitespace ((t (:background "#BFFF7F" :foreground "black"))))
+
+ '(markdown-code-face ((t (:foreground "#BFFF7F" :background "#407F00"))))
+ '(elfeed-search-date-face ((t (:foreground "#59B200"))))
+ '(elfeed-search-unread-title-face ((t (:foreground "#BFFF7F"))))
+ '(elfeed-search-title-face ((t (:foreground "#A6FF4C"))))
+ '(elfeed-search-feed-face ((t (:foreground "#D8FFB2"))))
+
+ '(message-header-other ((t (:foreground "#D8FFB2"))))
+
  '(variable-pitch ((t (:family "Sans Serif"))))
  '(default ((t (:inherit nil :stipple nil :background "black" :foreground "#80ff00" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal :foundry "PfEd" :family "IBM 3270 Narrow"))))
  )
