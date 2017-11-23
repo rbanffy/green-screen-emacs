@@ -74,7 +74,7 @@
  '(elfeed-search-title-face ((t (:foreground "#A6FF4C"))))
  '(elfeed-search-unread-title-face ((t (:foreground "#BFFF7F"))))
 
- '(fixed-pitch ((t (:family "Monospace"))))
+ '(fixed-pitch ((t (:family "IBM 3270 Narrow"))))
 
  '(font-lock-builtin-face ((t (:foreground "#A6FF4C" :weight semi-bold))))
  '(font-lock-comment-face ((t (:foreground "#407F00" :weight normal))))
