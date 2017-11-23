@@ -5,7 +5,7 @@
 ;; URL: https://github.com/rbanffy/green-screen-emacs
 ;; Package-Version: 20170824.1427
 ;; Keywords: faces, theme
-;; Version: 1.0.23
+;; Version: 1.0.24
 
 ;; Copyright (C) 2017  Ricardo Bánffy
 
@@ -31,7 +31,7 @@
 
 ;; #0C1900
 ;; #193300
-;; #264C00 -- The darkest we go
+;; #264C00 -- The darkest we go for foregrounds
 ;; #336600
 ;; #407F00 -- Dimmed text
 ;; #4C9900
