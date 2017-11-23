@@ -49,6 +49,15 @@
 ;; #E5FFCC
 ;; #F2FFE5
 
+;; Other named greens
+;; light green
+;; pale green
+;; dark green
+;; green1
+;; green2
+;; green3
+;; green4
+
 ;;; Code:
 
 (deftheme green-screen
