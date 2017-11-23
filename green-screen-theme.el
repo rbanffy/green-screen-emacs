@@ -103,7 +103,7 @@
 
  '(trailing-whitespace ((t (:background "#BFFF7F" :foreground "black"))))
 
- '(markdown-code-face ((t (:foreground "#BFFF7F" :background "#407F00"))))
+ '(markdown-code-face ((t (:foreground "#BFFF7F" :background "#407F00" :family "IBM 3270 Narrow"))))
 
  '(elfeed-search-date-face ((t (:foreground "#59B200"))))
  '(elfeed-search-unread-title-face ((t (:foreground "#BFFF7F"))))
