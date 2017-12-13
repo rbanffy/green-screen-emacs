@@ -5,7 +5,7 @@
 ;; URL: https://github.com/rbanffy/green-screen-emacs
 ;; Package-Version: 20170824.1427
 ;; Keywords: faces, theme
-;; Version: 1.0.24
+;; Version: 1.0.25
 
 ;; Copyright (C) 2017  Ricardo Bánffy
 
@@ -69,6 +69,10 @@
  '(cursor ((t (:background "#80FF00"))))
  '(escape-glyph ((t (:foreground "#264C00"))))
 
+ '(default ((t (:inherit nil :family "IBM 3270 Narrow"))))
+
+ '(eshell-prompt ((t (:foreground "#D8FFB2" :weight bold))))
+
  '(elfeed-search-date-face ((t (:foreground "#59B200"))))
  '(elfeed-search-feed-face ((t (:foreground "#D8FFB2"))))
  '(elfeed-search-title-face ((t (:foreground "#A6FF4C"))))
@@ -96,7 +100,7 @@
 
  '(hl-line ((t (:inherit highlight :background "dark green" :foreground "#80FF00"))))
 
- '(isearch ((((class color) (min-colors 88) (background light)) (:foreground "lightskyblue1" :background "magenta3")) (((class color) (min-colors 88) (background dark)) (:foreground "brown4" :background "palevioletred2")) (((class color) (min-colors 16)) (:foreground "cyan1" :background "magenta4")) (((class color) (min-colors 8)) (:foreground "cyan1" :background "magenta4")) (t (:inverse-video t))))
+ '(isearch ((((class color) (min-colors 88) (background light)) (:foreground "#D8FFB2" :background "#59B200")) (((class color) (min-colors 88) (background dark)) (:foreground "#264C00" :background "#E5FFCC")) (((class color) (min-colors 16)) (:foreground "cyan1" :background "magenta4")) (((class color) (min-colors 8)) (:foreground "cyan1" :background "magenta4")) (t (:inverse-video t))))
 
  '(isearch-fail ((((class color) (min-colors 88) (background light)) (:background "RosyBrown1")) (((class color) (min-colors 88) (background dark)) (:background "red4")) (((class color) (min-colors 16)) (:background "red")) (((class color) (min-colors 8)) (:background "red")) (((class color grayscale)) (:foreground "grey")) (t (:inverse-video t))))
 
@@ -109,7 +113,7 @@
 
  '(markdown-code-face ((t (:foreground "#BFFF7F" :background "#407F00" :family "IBM 3270 Narrow"))))
 
- '(match ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "RoyalBlue3")) (((class color) (min-colors 8) (background light)) (:foreground "black" :background "yellow")) (((class color) (min-colors 8) (background dark)) (:foreground "white" :background "blue")) (((type tty) (class mono)) (:inverse-video t)) (t (:background "gray"))))
+ '(match ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "#4C9900")) (((class color) (min-colors 8) (background light)) (:foreground "black" :background "yellow")) (((class color) (min-colors 8) (background dark)) (:foreground "white" :background "blue")) (((type tty) (class mono)) (:inverse-video t)) (t (:background "gray"))))
 
  '(message-header-other ((t (:foreground "#D8FFB2"))))
 
@@ -130,6 +134,8 @@
  '(secondary-selection ((t (:background "#407F00"))))
 
  '(shadow ((t (:foreground "#407F00"))))
+
+ '(sh-quoted-exec ((t (:foreground "#A6FF4C"))))
 
  '(trailing-whitespace ((t (:background "#BFFF7F" :foreground "black"))))
 
