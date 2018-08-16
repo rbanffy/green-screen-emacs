@@ -144,6 +144,13 @@
  '(default ((t (:inherit nil :stipple nil :background "black" :foreground "#80ff00" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal :foundry "PfEd" :family "IBM 3270 Narrow"))))
  )
 
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
+
 (custom-theme-set-variables 'green-screen
  '(fci-rule-color "dark green"))
 
